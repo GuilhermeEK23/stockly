@@ -1,11 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Product as PrismaProduct } from "@prisma/client";
-
-type Product = PrismaProduct & {
-  status: string;
-};
+import { Product } from "@prisma/client";
 
 import { ColumnDef } from "@tanstack/react-table";
 import { CircleIcon } from "lucide-react";
